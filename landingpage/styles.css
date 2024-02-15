@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+    text-align: center;
+    }
+
+header {
+    background-color: #28d61c;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+nav {
+    background-color: #e26ab8;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 10px;
+    color: rgb(4, 19, 19);
+}
+
+footer {
+    background-color: #39da4e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3%;
+}
+
+h2{
+    color: #e26ab8;
+}
+.right {
+    float: right;
+
+}
+.circular-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Creates a circular shape */
+    overflow: hidden; /* Ensures the image does not overflow */
+}
+.background-div {
+    background-image: url("path/to/your/background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    /* Other styling properties for the div */
+}
